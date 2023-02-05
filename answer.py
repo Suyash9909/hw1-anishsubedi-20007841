@@ -53,7 +53,7 @@ def list_1D():
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
-    hoboken_list = s.split()
+    hoboken_list = hoboken.split(",")
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
@@ -143,7 +143,7 @@ def dictionary_nested():
 
     # Get the third item in the list that key "job" maps to. (the item  you recently added)
     
-    job = Grace["jobs"][:-1]
+    job = Grace["jobs"][-1]
 
 
 
